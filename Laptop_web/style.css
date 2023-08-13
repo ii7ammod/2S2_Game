@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #02275a;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    translate: 20px;
+}
+ul{
+    width: 30%;
+    font-size:20px ;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-color: white;
+}
+.afterheader h3{
+    
+    color: white;
+    direction: rtl;
+    font-size: 30px;
+    animation-name: squer1;
+    animation-duration:16s;
+animation-delay: 0.5s;
+animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+   
+}
+@keyframes squer1{
+    0%{
+        translate: 0;
+    }
+    50%{
+        translate: -755px;
+    }
+    100%{
+        translate: 0;
+    }
+}
+.first{
+    display: flex;
+            justify-content: center;
+            align-items: center;        
+}
+.blade{
+    width: 400px;
+            height: 520px;
+            translate: 0px;
+            transform: translateY(0px);
+            border: 4px solid white;
+            border-radius: 10px;
+            scale: 0.8;
+            animation-name: squer2;
+            animation-duration: 3s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+}
+@keyframes squer2{
+    0%{
+        translate: 0px 0px;
+    }
+    
+    50%{
+        translate: 0px 10px;
+    }
+    100%{
+        translate: 0px 0px;
+       
+    }
+    
+    }
+.blade img{
+    scale: 0.8;
+    translate: -45px;
+    transform: translateY(-140px);
+}
+.blade h3{
+    color: white;
+    font-size: 40px;
+    transform: translateY(-222px);
+    translate: 124px;
+}
+.blade .b{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-160px);
+    translate:25px;
+}
+.blade .bb{
+    color: white;
+    font-size: 23px;
+    transform: translateY(-140px);
+    translate:24px;
+}
+.rog{
+    width: 400px;
+            height: 520px;
+            translate: 0px;
+            transform: translateY(0px);
+            border: 4px solid white;
+            border-radius: 10px;
+            scale: 0.8;
+            animation-name: squer2;
+            animation-duration: 3s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+}
+.rog img{
+    scale: 0.67;
+    translate: -45px;
+    transform: translateY(-155px);
+}
+.rog h3{
+    color: white;
+    font-size: 35px;
+    transform: translateY(-222px);
+    translate: 67px;
+}
+.rog .z{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-160px);
+    translate:26px;
+}
+.rog .zz{
+    color: white;
+    font-size: 23px;
+    transform: translateY(-135px);
+    translate:24px;
+}
+.legion{
+    width: 400px;
+            height: 520px;
+            translate: 0px;
+            transform: translateY(0px);
+            border: 4px solid white;
+            border-radius: 10px;
+            scale: 0.8;
+            animation-name: squer2;
+            animation-duration: 3s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+}
+.legion img{
+    scale: 0.85;
+    translate: -45px;
+    transform: translateY(-111px);
+}
+.legion h3{
+    color: white;
+    font-size: 35px;
+    transform: translateY(-222px);
+    translate: 105px;
+}
+.legion .l{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-160px);
+    translate:18px;
+}
+.legion .ll{
+    color: white;
+    font-size: 23px;
+    transform: translateY(-135px);
+    translate:24px;
+}
+.secend{
+    display: flex;
+            justify-content: center;
+            align-items: center; 
+}
+.gs{
+    width: 400px;
+            height: 520px;
+            translate: 0px;
+            transform: translateY(0px);
+            border: 4px solid white;
+            border-radius: 10px;
+            scale: 0.8;
+            animation-name: squer2;
+            animation-duration: 3s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+}
+.gs img{
+    scale: 0.8;
+    translate: -45px;
+    transform: translateY(-155px);
+}
+.gs h3{
+    color: white;
+    font-size: 40px;
+    transform: translateY(-250px);
+    translate: 90px;
+}
+.gs .g{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-165px);
+    translate:35px;
+}
+.gs .gg{
+    color: white;
+    font-size: 22px;
+    transform: translateY(-140px);
+    translate:30px;
+}
+.predator{
+    width: 400px;
+            height: 520px;
+            translate: 0px;
+            transform: translateY(0px);
+            border: 4px solid white;
+            border-radius: 10px;
+            scale: 0.8;
+            animation-name: squer2;
+            animation-duration: 3s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+}
+.predator img{
+    scale: 0.8;
+    translate: -47px;
+    transform: translateY(-145px);
+}
+.predator h3{
+    color: white;
+    font-size: 38px;
+    transform: translateY(-250px);
+    translate: 38px;
+}
+.predator .p{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-165px);
+    translate:30px;
+}
+.predator .pp{
+    color: white;
+    font-size: 22px;
+    transform: translateY(-140px);
+    translate:33px;
+}
+@media (min-width:950px) and (max-width:1168px){
+    ul{
+        width: 30%;
+        font-size:16px ;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .afterheader h3{
+
+        color: white;
+        direction: rtl;
+        font-size: 25px;
+        animation-name: squer1;
+        animation-duration:16s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+       
+    }
+    @keyframes squer1{
+        0%{
+            translate: 0;
+        }
+        50%{
+            translate: -280px;
+        }
+        100%{
+            translate: 0;
+        }
+    }
+    .first{
+        scale: 0.8;
+    }
+    .secend{
+        scale: 0.8;
+    }
+}
+@media (min-width:750px) and (max-width:950px){
+    .logo{
+        font-size: 30px;
+        color: white;
+        padding: 20px;
+        translate: 20px;
+    }
+    ul{
+        width: 30%;
+        font-size:15px ;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .afterheader h3{
+
+        color: white;
+        direction: rtl;
+        font-size: 22px;
+        animation-name: squer1;
+        animation-duration:8s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+       
+    }
+    @keyframes squer1{
+        0%{
+            translate: 0;
+        }
+        50%{
+            translate: -160px;
+        }
+        100%{
+            translate: 0;
+        }
+    }
+    .first{
+        flex-direction: column;
+    }
+    .secend{
+        flex-direction: column;
+    }
+}
+@media (min-width:426px) and (max-width:750px){
+    .logo{
+        font-size: 30px;
+        color: white;
+        padding: 20px;
+        translate: 20px;
+    }
+    ul{
+        width: 30%;
+        font-size:15px ;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .afterheader h3{
+
+        color: white;
+        direction: rtl;
+        font-size: 20px;
+        animation-name: squer1;
+        animation-duration:8s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+       
+    }
+    @keyframes squer1{
+        0%{
+            translate: 0;
+        }
+        50%{
+            translate: -20px;
+        }
+        100%{
+            translate: 0;
+        }
+    }
+    .first{
+        flex-direction: column;
+    }
+    .secend{
+        flex-direction: column;
+    }
+}
+@media (max-width:426px){
+    .logo{
+        font-size: 25px;
+        color: white;
+        padding: 20px;
+        translate: -5px;
+    }
+    ul{
+        width: 30%;
+        font-size:15px ;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .afterheader h3{
+    
+        color: white;
+        direction: rtl;
+        font-size: 10px;
+        animation-name: squer1;
+        animation-duration:8s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+       
+    }
+    @keyframes squer1{
+        0%{
+            translate: 0;
+        }
+        50%{
+            translate: -32px;
+        }
+        100%{
+            translate: 0;
+        }
+    }
+    .first{
+        flex-direction: column;
+    }
+  .blade .b{
+    font-size: 23.5px;
+  }
+  .blade .bb{
+    font-size: 22px;  
+  }
+  .rog .z{
+   font-size:23.5px ;
+  }
+  .rog .zz{
+    font-size: 22px;
+  }
+  .legion .l{
+    font-size: 23.5px;
+  }
+  .legion .ll{
+    font-size: 22px;
+  }
+    .secend{
+        flex-direction: column;
+    }
+  .gs .g{
+    font-size: 23.5px;
+  }
+  .gs .gg{
+    font-size: 22px;
+  }
+  .predator .p{
+    font-size: 23.5px;
+  }
+  .predator .pp{
+    font-size: 22px;
+  }
+}

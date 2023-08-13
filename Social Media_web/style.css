@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #02275a;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    translate: 20px;
+}
+ul{
+    width: 30%;
+    font-size:20px ;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-color: white;
+}
+.first{
+    transform: translateY(70px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.first .insta{
+    width: 400px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    animation-name: squer1;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate-reverse;
+}
+@keyframes squer1{
+    0%{
+        translate: 0px 0px;
+    }
+    
+    50%{
+        translate: 0px 10px;
+    }
+    100%{
+        translate: 0px 0px;
+       
+    }
+    
+    }
+   
+    .first .insta img{
+        display: inline;
+        scale: 0.055;
+        transform: translateY(-6800px);
+        translate: -370px;
+    }
+    .first .insta h3{
+        color: white;
+        font-size: 35px;
+        transform: translateY(-800px);
+        translate: 173px;
+    }
+    .first .tele{
+        width: 400px;
+        height: 50px;
+        border: 2px solid white;
+        border-radius: 10px;
+        transform: translateY(50px);
+        animation-name: squer1;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate-reverse;
+    }
+    .first .tele img{
+        display: inline;
+        scale: 0.075;
+        transform: translateY(-5000px);
+        translate: -370px;
+    }
+    .first .tele h3{
+        color: white;
+        font-size: 30px;
+        transform: translateY(-797px);
+        translate: 113px;
+    }
+    .first .whats{
+        width: 400px;
+        height: 50px;
+        border: 2px solid white;
+        border-radius: 10px;
+        transform: translateY(100px);
+        animation-name: squer1;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+         animation-iteration-count: infinite;
+         animation-direction: alternate-reverse;
+    }
+    .first .whats img{
+        display: inline;
+        scale: 0.085;
+        transform: translateY(-4410px);
+        translate: -370px;
+    }
+    .first .whats h3{
+        color: white;
+        font-size: 30px;
+        transform: translateY(-797px);
+        translate: 105px;
+    }
+    @media (min-width:950px) and (max-width:1168px){
+        ul{
+            width: 30%;
+            font-size:16px ;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+        }
+    }
+    @media (min-width:750px) and (max-width:950px){
+        .logo{
+            font-size: 30px;
+            color: white;
+            padding: 20px;
+            translate: 20px;
+        }
+        ul{
+            width: 30%;
+            font-size:15px ;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+    }
+    @media (min-width:426px) and (max-width:750px){
+        .logo{
+            font-size: 30px;
+            color: white;
+            padding: 20px;
+            translate: 20px;
+        }
+        ul{
+            width: 30%;
+            font-size:15px ;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+    }
+    @media (max-width:426px){
+        .logo{
+            font-size: 25px;
+            color: white;
+            padding: 20px;
+            translate: -5px;
+        }
+        ul{
+            width: 30%;
+            font-size:15px ;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .first{
+            scale: 0.8;
+          }
+    }

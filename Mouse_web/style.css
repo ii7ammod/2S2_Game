@@ -1,0 +1,1295 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #02275a;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    translate: 20px;
+}
+ul{
+    width: 30%;
+    font-size:20px ;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-color: white;
+}
+.afterheader h3{
+    
+    color: white;
+    direction: rtl;
+    font-size: 30px;
+    animation-name: squer1;
+    animation-duration:16s;
+animation-delay: 0.5s;
+animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+   
+}
+@keyframes squer1{
+    0%{
+        translate: 0;
+    }
+    50%{
+        translate: -693px;
+    }
+    100%{
+        translate: 0;
+    }
+}
+.G502{
+    display: inline-block;
+    width: 400px;
+    height: 520px;
+    translate: 250px;
+    border: 4px solid white;
+    border-radius: 10px;
+    scale: 0.8;
+    animation-name: squer2;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+}
+@keyframes squer2{
+    0%{
+        translate: 250px 0px;
+    }
+    
+    50%{
+        translate: 250px 10px;
+    }
+    100%{
+        translate: 250px 0px;
+       
+    }
+    
+    }
+.G502 img{
+    scale: 0.5;
+    translate: -60px;
+    transform: translateY(-260px);
+}
+.G502 h3{
+    color: white;
+    font-size: 45px;
+    transform: translateY(-260px);
+    translate: 145px;
+}
+.G502 .g{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-190px);
+    translate: 10px;
+}
+.G502 .gg{
+    color: white;
+    font-size: 25.5px;
+    transform: translateY(-160px);
+    translate: 15px;
+}
+.modelo{
+    display: inline-block;
+    width: 400px;
+    height: 520px;
+    translate: 500px;
+    transform: translateY(-15px);
+    border: 4px solid white;
+    border-radius: 10px;
+    scale: 0.79;
+    animation-name: squer3;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+}
+@keyframes squer3{
+    0%{
+        translate: 500px 0px;
+    }
+    
+    50%{
+        translate: 500px 10px;
+    }
+    100%{
+        translate: 500px 0px;
+       
+    }
+    
+    }
+    .modelo img{
+        scale: 0.6;
+        translate: -60px;
+        transform: translateY(-180px);
+    }
+  .modelo h3{
+    color: white;
+    font-size: 40px;
+    transform: translateY(-250px);
+    translate: 125px;
+  }
+  .modelo .m{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-170px);
+    translate: 13px;
+  }
+  .modelo .mm{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-140px);
+    translate: 30px;
+  }
+  .gpro{
+    width: 400px;
+    height: 520px;
+    translate: 590px;
+    transform: translateY(-111px);
+    border: 4px solid white;
+    border-radius: 10px;
+    scale: 0.79;
+    animation-name: squer4;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+}
+@keyframes squer4{
+    0%{
+        translate: 590px 0px;
+    }
+    
+    50%{
+        translate: 590px 10px;
+    }
+    100%{
+        translate: 590px 0px;
+       
+    }
+    
+    }
+    .gpro img{
+        scale: 0.65;
+        translate: -50px;
+        transform: translateY(-160px);
+    }
+    .gpro h3{
+        color: white;
+        font-size: 35px;
+        transform: translateY(-230px);
+        translate: 65px;
+    }
+    .gpro .p{
+        color: white;
+        font-size: 25px;
+        transform: translateY(-150px);
+        translate: 10px;
+    }
+    .gpro .pp{
+        color: white;
+    font-size: 25.5px;
+    transform: translateY(-125px);
+    translate: 25px;
+    }
+    .death{
+        display: inline-block;
+        width: 400px;
+        height: 520px;
+        translate: 250px;
+        transform: translateY(-80px);
+        border: 4px solid white;
+        border-radius: 10px;
+        scale: 0.8;
+        animation-name: squer5;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+          animation-direction: alternate-reverse;
+    }
+    @keyframes squer5{
+        0%{
+            translate: 250px 0px;
+        }
+        
+        50%{
+            translate: 250px 10px;
+        }
+        100%{
+            translate: 250px 0px;
+           
+        }
+        
+        }
+    .death img{
+        scale: 0.25;
+        transform: translateY(-1500px);
+        translate: -330px;
+    }
+    .death h3{
+        color: white;
+        font-size: 35px;
+        transform: translateY(-770px);
+        translate: 110px;
+    }
+    .death .d{
+        color: white;
+        font-size: 25px;
+        transform: translateY(-720px);
+        translate: 30px;
+    }
+    .death .dd{
+        color: white;
+        font-size: 25px;
+        transform: translateY(-695px);
+        translate: 27px;
+    }
+    .viper{
+        display: inline-block;
+        width: 400px;
+        height: 520px;
+        translate: 500px;
+        transform: translateY(-792px);
+        border: 4px solid white;
+        border-radius: 10px;
+        scale: 0.79;
+        animation-name: squer6;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+
+    }
+    @keyframes squer6{
+        0%{
+            translate: 500px 0px;
+        }
+        
+        50%{
+            translate: 500px 10px;
+        }
+        100%{
+            translate: 500px 0px;
+           
+        }
+        
+        }
+        .viper img{
+            scale: 0.75;
+            translate: -55px;
+            transform: translateY(-150px);
+        }
+        .viper h3{
+            color: white;
+            font-size: 40px;
+            transform: translateY(-200px);
+            translate: 110px;
+        }
+        .viper .v{
+            color: white;
+            font-size: 25px;
+            transform: translateY(-150px);
+            translate: 30px;
+        }
+        .viper .vv{
+            color: white;
+            font-size: 25px;
+            transform: translateY(-130px);
+            translate: 28px;
+        }
+        .gprok{
+            
+            width: 400px;
+            height: 520px;
+            translate: 0px;
+            transform: translateY(-650px);
+            border: 4px solid white;
+            border-radius: 10px;
+            scale: 0.8;
+            animation-name: squer7;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        }
+        @keyframes squer7{
+            0%{
+                translate: 0px 0px;
+            }
+            
+            50%{
+                translate: 0px 10px;
+            }
+            100%{
+                translate: 0px 0px;
+               
+            }
+            
+            }
+            .gprok img{
+                scale: 0.25;
+                translate: -482px;
+                transform: translateY(-700px);
+            }
+            .gprok h3{
+                color: white;
+                font-size: 40px;
+                transform: translateY(-350px);
+                translate: 140px;
+            }
+            .gprok .r{
+                color: white;
+                font-size: 25px;
+                transform: translateY(-240px);
+                translate:10px;
+            }
+            .gprok .rr{
+                color: white;
+                font-size: 25px;
+                transform: translateY(-210px);
+                translate:21px;
+            }
+        .Widow{
+            
+            width: 400px;
+            height: 520px;
+            translate: 0px;
+            transform: translateY(-650px);
+            border: 4px solid white;
+            border-radius: 10px;
+            scale: 0.8;
+            animation-name: squer8;
+            animation-duration: 3s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes squer8{
+            0%{
+                translate: 0px 0px;
+            }
+            
+            50%{
+                translate: 0px 10px;
+            }
+            100%{
+                translate: 0px 0px;
+               
+            }
+            
+            }
+            .Widow img{
+                scale: 0.5;
+                translate: -112px;
+                transform: translateY(-220px);
+            }
+            .Widow h3{
+                color: white;
+                font-size: 35px;
+                transform: translateY(-190px);
+                translate: 68px;
+            }
+            .Widow .b{
+                color: white;
+                font-size: 25px;
+                transform: translateY(-75px);
+                translate: 25px;
+            }
+            .Widow .bb{
+                color: white;
+                font-size: 25px;
+                transform: translateY(-48px);
+                translate: 24px;
+            }
+        .hx-kb{
+            width: 400px;
+            height: 520px;
+            translate: 0px;
+            transform: translateY(-650px);
+            border: 4px solid white;
+            border-radius: 10px;
+            scale: 0.8;
+            animation-name: squer9;
+            animation-duration: 3s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes squer9{
+            0%{
+                translate: 0px 0px;
+            }
+            
+            50%{
+                translate: 0px 10px;
+            }
+            100%{
+                translate: 0px 0px;
+               
+            }
+            
+            }
+            .hx-kb img{
+                scale: 0.62;
+                translate: -82px;
+                transform: translateY(-200px);
+            }
+            .hx-kb h3{
+                color: white;
+                font-size: 40px;
+                transform: translateY(-205px);
+                translate: 94px;
+            }
+            .hx-kb .a{
+                color: white;
+                font-size: 25px;
+                transform: translateY(-90px);
+                translate: 10px;
+            }
+            .hx-kb .aa{
+                color: white;
+                font-size: 25px;
+                transform: translateY(-60px);
+                translate: 24px;
+            }
+        .secend{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(-50px);
+        }
+        .first{
+            translate: -30px;
+        }
+        .K95{
+            width: 400px;
+            height: 520px;
+            translate: 0px;
+            transform: translateY(-650px);
+            border: 4px solid white;
+            border-radius: 10px;
+            scale: 0.8;
+            animation-name: squer10;
+            animation-duration: 3s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes squer10{
+            0%{
+                translate: 0px 0px;
+            }
+            
+            50%{
+                translate: 0px 10px;
+            }
+            100%{
+                translate: 0px 0px;
+               
+            }
+            
+            }
+            .K95 img{
+                scale: 0.3;
+                translate: -400px;
+                transform: translateY(-750px);
+            }
+            .K95 h3{
+                color: white;
+                font-size: 45PX;
+                transform: translateY(-450px);
+                translate: 156px;
+            }
+            .K95 .k{
+                color: white;
+                font-size: 25px;
+                transform: translateY(-350px);
+                translate: 7px;
+            }
+            .K95 .kk{
+                color: white;
+                font-size: 25px;
+                transform: translateY(-325px);
+                translate: 20px;
+            }
+            
+        .Apex{
+            width: 400px;
+            height: 520px;
+            translate: 0px;
+            transform: translateY(-650px);
+            border: 4px solid white;
+            border-radius: 10px;
+            scale: 0.8;
+            animation-name: squer11;
+            animation-duration: 3s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes squer11{
+            0%{
+                translate: 0px 0px;
+            }
+            
+            50%{
+                translate: 0px 10px;
+            }
+            100%{
+                translate: 0px 0px;
+               
+            }
+            
+            }
+            .Apex img{
+                scale: 0.45;
+                translate: -127px;
+                transform: translateY(-350px);
+            }
+            .Apex h3{
+                color: white;
+                font-size: 40px;
+                transform: translateY(-295px);
+                translate: 122px;
+            }
+            .Apex .ap{
+                color: white;
+                font-size: 25px;
+                transform: translateY(-192px);
+                translate: 12px;
+            }
+            .Apex .app{
+                color: white;
+                font-size: 25px;
+                transform: translateY(-165px);
+                translate: 22px;
+            }
+
+        .third{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media (min-width:1000px) and (max-width:1300px){
+           
+            ul{
+                width: 30%;
+                font-size:16px ;
+                list-style: none;
+                display: flex;
+                justify-content: space-evenly;
+                padding: 10px;
+            }
+            .afterheader h3{
+    
+                color: white;
+                direction: rtl;
+                font-size: 25px;
+                animation-name: squer1;
+                animation-duration:16s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+              animation-direction: alternate-reverse;
+               
+            }
+            @keyframes squer1{
+                0%{
+                    translate: 0;
+                }
+                50%{
+                    translate: -450px;
+                }
+                100%{
+                    translate: 0;
+                }
+            }
+            .G502{
+                scale: 0.7;
+                translate: -28px;
+            }
+            @keyframes squer2{
+                0%{
+                    translate: -28px 0px;
+                }
+                
+                50%{
+                    translate: -28px 10px;
+                }
+                100%{
+                    translate: -28px 0px;
+                   
+                }
+                
+                }
+                .modelo{
+                    scale: 0.7;
+                    translate:400px;
+                }
+                @keyframes squer3{
+                    0%{
+                        translate: 400px 0px;
+                    }
+                    
+                    50%{
+                        translate: 400px 10px;
+                    }
+                    100%{
+                        translate: 400px 0px;
+                       
+                    }
+                    
+                    }
+                    .gpro{
+                        
+                        translate: 400px;
+                    }
+                    @keyframes squer4{
+                        0%{
+                            translate: 400px 0px;
+                        }
+                        
+                        50%{
+                            translate: 400px 10px;
+                        }
+                        100%{
+                            translate: 400px 0px;
+                           
+                        }
+                        
+                        }
+                        .death{
+                            scale: 0.7;
+                    translate: -27px;
+                        }
+                        @keyframes squer5{
+                            0%{
+                                translate: -27px 0px;
+                            }
+                            
+                            50%{
+                                translate:-27px 10px;
+                            }
+                            100%{
+                                translate: -27px 0px;
+                               
+                            }
+                            
+                            }
+                            .viper{
+                                scale: 0.7;
+                                translate: 400px;
+                                transform: translateY(-878px);
+                            }
+                            @keyframes squer6{
+                                0%{
+                                    translate: 400px 0px;
+                                }
+                                
+                                50%{
+                                    translate:400px 10px;
+                                }
+                                100%{
+                                    translate: 400px 0px;
+                                   
+                                }
+                                
+                                }
+                               .secend{
+                                scale: 0.8;
+                               } 
+                               .third{
+                                scale: 0.8;
+                               }
+        }
+        @media (min-width:950px) and (max-width:1150px){
+            ul{
+                width: 30%;
+                font-size:16px ;
+                list-style: none;
+                display: flex;
+                justify-content: space-evenly;
+                padding: 10px;
+            }
+            .afterheader h3{
+    
+                color: white;
+                direction: rtl;
+                font-size: 25px;
+                animation-name: squer1;
+                animation-duration:16s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+              animation-direction: alternate-reverse;
+               
+            }
+            @keyframes squer1{
+                0%{
+                    translate: 0;
+                }
+                50%{
+                    translate: -245px;
+                }
+                100%{
+                    translate: 0;
+                }
+            }
+            .G502{
+                scale: 0.7;
+                translate: -28px;
+            }
+            @keyframes squer2{
+                0%{
+                    translate: -28px 0px;
+                }
+                
+                50%{
+                    translate: -28px 10px;
+                }
+                100%{
+                    translate: -28px 0px;
+                   
+                }
+                
+                }
+                .modelo{
+                    scale: 0.7;
+                    translate: 200px;
+                }
+                @keyframes squer3{
+                    0%{
+                        translate: 200px 0px;
+                    }
+                    
+                    50%{
+                        translate: 200px 10px;
+                    }
+                    100%{
+                        translate: 200px 0px;
+                       
+                    }
+                    
+                    }
+                    .gpro{
+                        
+                        translate: 300px;
+                    }
+                    @keyframes squer4{
+                        0%{
+                            translate: 300px 0px;
+                        }
+                        
+                        50%{
+                            translate: 300px 10px;
+                        }
+                        100%{
+                            translate: 300px 0px;
+                           
+                        }
+                        
+                        }
+                        .death{
+                            scale: 0.7;
+                    translate: -27px;
+                        }
+                        @keyframes squer5{
+                            0%{
+                                translate: -27px 0px;
+                            }
+                            
+                            50%{
+                                translate:-27px 10px;
+                            }
+                            100%{
+                                translate: -27px 0px;
+                               
+                            }
+                            
+                            }
+                            .viper{
+                                scale: 0.7;
+                                translate: 200px;
+                                transform: translateY(-878px);
+                            }
+                            @keyframes squer6{
+                                0%{
+                                    translate: 200px 0px;
+                                }
+                                
+                                50%{
+                                    translate:200px 10px;
+                                }
+                                100%{
+                                    translate: 200px 0px;
+                                   
+                                }
+                                
+                                }
+                               .secend{
+                                scale: 0.8;
+                               } 
+                               .third{
+                                scale: 0.8;
+                               }
+        }
+        @media (min-width:800px) and (max-width:950px){
+           
+            ul{
+                width: 30%;
+                font-size:15px ;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+            }
+            .afterheader h3{
+    
+                color: white;
+                direction: rtl;
+                font-size: 20px;
+                animation-name: squer1;
+                animation-duration:16s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+              animation-direction: alternate-reverse;
+               
+            }
+            @keyframes squer1{
+                0%{
+                    translate: 0;
+                }
+                50%{
+                    translate: -220px;
+                }
+                100%{
+                    translate: 0;
+                }
+            }
+            .modelo{
+                translate: 255px;
+            }
+            @keyframes squer3{
+                0%{
+                    translate: 255px 0px;
+                }
+                
+                50%{
+                    translate: 255px 10px;
+                }
+                100%{
+                    translate: 255px 0px;
+                   
+                }
+                
+                }
+                .gpro{
+                    translate: 255px;
+                    transform: translateY(-40px);
+                }
+                @keyframes squer4{
+                    0%{
+                        translate: 255px 0px;
+                    }
+                    
+                    50%{
+                        translate: 255px 10px;
+                    }
+                    100%{
+                        translate: 255px 0px;
+                       
+                    }
+                    
+                    }
+                    .viper{
+                        translate: 255px;
+                        transform: translateY(-80px);
+                    }
+                    @keyframes squer6{
+                        0%{
+                            translate: 255px 0px;
+                        }
+                        
+                        50%{
+                            translate: 255px 10px;
+                        }
+                        100%{
+                            translate: 255px 0px;
+                           
+                        }
+                        
+        }
+        .secend{
+            scale: 0.65;
+            transform: translateY(350px);
+        }
+        .third{
+            scale: 0.65;
+            transform: translateY(150px);
+        }
+        .first{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    @media (min-width:426px) and (max-width:800px){
+        .logo{
+            font-size: 30px;
+            color: white;
+            padding: 20px;
+            translate: 20px;
+        }
+        ul{
+            width: 30%;
+            font-size:15px ;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .afterheader h3{
+    
+            color: white;
+            direction: rtl;
+            font-size: 18px;
+            animation-name: squer1;
+            animation-duration:8s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+          animation-direction: alternate-reverse;
+           
+        }
+        @keyframes squer1{
+            0%{
+                translate: 0;
+            }
+            50%{
+                translate: -40px;
+            }
+            100%{
+                translate: 0;
+            }
+        }
+        .first{
+            display: flex;
+            flex-direction: column;
+        }
+        .G502{
+            translate:111px;
+        }
+        @keyframes squer2{
+            0%{
+                translate: 111px 0px;
+            }
+            
+            50%{
+                translate: 111px 10px;
+            }
+            100%{
+                translate: 111px 0px;
+               
+            }
+    }
+    .modelo{
+        translate: 111px;
+    }
+    @keyframes squer3{
+        0%{
+            translate: 111px 0px;
+        }
+        
+        50%{
+            translate: 111px 10px;
+        }
+        100%{
+            translate: 111px 0px;
+           
+        }
+}
+.gpro{
+    translate: 111px;
+    transform: translateY(0px);
+}
+@keyframes squer4{
+    0%{
+        translate: 111px 0px;
+    }
+    
+    50%{
+        translate: 111px 10px;
+    }
+    100%{
+        translate: 111px 0px;
+       
+    }
+}
+.death{
+    translate: 111px;
+    transform: translateY(0px);
+}
+@keyframes squer5{
+    0%{
+        translate: 111px 0px;
+    }
+    
+    50%{
+        translate: 111px 10px;
+    }
+    100%{
+        translate: 111px 0px;
+       
+    }
+}
+.viper{
+    translate: 111px;
+    transform: translateY(0px);
+}
+@keyframes squer6{
+    0%{
+        translate: 111px 0px;
+    }
+    
+    50%{
+        translate: 111px 10px;
+    }
+    100%{
+        translate: 111px 0px;
+       
+    }
+}
+.secend{
+    flex-direction: column;
+    transform: translateY(550px);
+    translate: 18px;
+}
+.third{
+    flex-direction: column;
+    transform: translateY(550px);
+    translate: 18px;
+}
+}
+@media (max-width:426px){
+    .logo{
+        font-size: 25px;
+        color: white;
+        padding: 20px;
+        translate: -5px;
+    }
+    ul{
+        width: 30%;
+        font-size:15px ;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .afterheader h3{
+    
+        color: white;
+        direction: rtl;
+        font-size: 10px;
+        animation-name: squer1;
+        animation-duration:8s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+       
+    }
+    @keyframes squer1{
+        0%{
+            translate: 0;
+        }
+        50%{
+            translate: -12px;
+        }
+        100%{
+            translate: 0;
+        }
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+    }
+    .G502{
+        translate:10px;
+    }
+    @keyframes squer2{
+        0%{
+            translate: 10px 0px;
+        }
+        
+        50%{
+            translate: 10px 10px;
+        }
+        100%{
+            translate: 10px 0px;
+           
+        }
+}
+  .G502 .g{
+    font-size:23.5px;
+  }
+  .G502 .gg{
+    font-size:24.8px;
+  }
+.modelo{
+    translate: 10px;
+    transform: translateY(0px);
+}
+@keyframes squer3{
+    0%{
+        translate: 10px 0px;
+    }
+    
+    50%{
+        translate: 10px 10px;
+    }
+    100%{
+        translate: 10px 0px;
+       
+    }
+}
+  .modelo .m{
+    font-size: 23.5px;
+  }
+  .modelo .mm{
+    font-size: 24.8px;
+  }
+.gpro{
+    translate: 10px;
+    transform: translateY(0px);
+}
+@keyframes squer4{
+    0%{
+        translate: 10px 0px;
+    }
+    
+    50%{
+        translate: 10px 10px;
+    }
+    100%{
+        translate: 10px 0px;
+       
+    }
+}
+  .gpro .p{
+    font-size: 23.5px;
+  }
+  .gpro .pp{
+    font-size: 24.8px;
+  }
+.death{
+    translate: 10px;
+    transform: translateY(0px);
+}
+@keyframes squer5{
+    0%{
+        translate: 10px 0px;
+    }
+    
+    50%{
+        translate: 10px 10px;
+    }
+    100%{
+        translate: 10px 0px;
+       
+    }
+}
+  .death .d{
+    font-size: 23.5px;
+  }
+  .death .dd{
+    font-size: 24.8px;
+  }
+.viper{
+    translate: 10px;
+    transform: translateY(0px);
+}
+@keyframes squer6{
+    0%{
+        translate: 10px 0px;
+    }
+    
+    50%{
+        translate: 10px 10px;
+    }
+    100%{
+        translate: 10px 0px;
+       
+    }
+}
+  .viper .v{
+    font-size: 23.5px;
+  }
+  .viper .vv{
+    font-size: 24.8px;
+  }
+.secend{
+    flex-direction: column;
+    transform: translateY(550px);
+    translate: 6px;
+}
+  .gprok .r{
+    font-size: 23.5px;
+  }
+  .gprok .rr{
+    font-size: 24.8px;
+  }
+  .Widow .b{
+    font-size: 23.5px;
+  }
+  .Widow .bb{
+    font-size: 24.8px;
+  }
+  .hx-kb .a{
+    font-size: 23.5px;
+  }
+  .hx-kb .aa{
+    font-size: 24.8px;
+  }
+.third{
+    flex-direction: column;
+    transform: translateY(550px);
+    translate: 6px;
+}
+  .K95 .k{
+    font-size: 23.5px;
+  }
+  .K95 .kk{
+    font-size: 24.8px;
+  }
+  .Apex .ap{
+    font-size: 23.5px;
+  }
+  .Apex .app{
+    font-size: 24.8px;
+  }
+}

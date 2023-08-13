@@ -1,0 +1,740 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #02275a;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    translate: 20px;
+}
+ul{
+    width: 30%;
+    font-size:20px ;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-color: white;
+}
+.afterheader h3{
+    
+    color: white;
+    direction: rtl;
+    font-size: 30px;
+    animation-name: squer1;
+    animation-duration:16s;
+animation-delay: 0.5s;
+animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+   
+}
+@keyframes squer1{
+    0%{
+        translate: 0;
+    }
+    50%{
+        translate: -800px;
+    }
+    100%{
+        translate: 0;
+    }
+}
+.astroa50{
+    width: 400px;
+    height: 570px;
+    translate: 580px;
+    border: 4px solid white;
+    border-radius: 10px;
+    animation-name: squer3;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+}
+@keyframes squer3{
+    0%{
+        translate: 580px 0px;
+    }
+    
+    50%{
+        translate: 580px 10px;
+    }
+    100%{
+        translate: 580px 0px;
+       
+    }
+    
+    }
+.astroa50 img{
+    scale: 0.4;
+   translate: -200px;
+    transform: translateY(-360px);
+}
+.astroa50 h3{
+    transform: translateY(-300px);
+    translate: 100px;
+    color: white;
+    font-size: 40px;
+}
+.as{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-230px);
+    translate: 45px;
+}
+.ass{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-190px);
+    translate: 55px;
+}
+.huperx{
+    width: 400px;
+    height: 570px;
+    translate: -100px;
+    border: 4px solid white;
+    border-radius: 10px;
+    animation-name: squer4;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+}
+@keyframes squer4{
+    0%{
+        translate:-100px 0px;
+    }
+    
+    50%{
+        translate: -100px 10px;
+    }
+    100%{
+        translate: -100px 0px;
+       
+    }
+    
+    }
+  .huperx img{
+    scale: 0.2;
+    transform: translateY(-2500px);
+    translate: -330px;
+  }
+  .huperx h3{
+    transform: translateY(-1050px);
+    translate: 65px;
+    color: white;
+    font-size: 40px;
+  }
+  .huperx .hy{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-998px);
+    translate: 45px;
+  }
+  .huperx .hyy{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-960px);
+    translate: 60px;
+  }
+  .secend{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .SteelSeries{
+    
+    width: 400px;
+    height: 570px;
+    translate: 150px;
+    border: 4px solid white;
+    border-radius: 10px;
+    animation-name: squer5;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+  }
+  @keyframes squer5{
+    0%{
+        translate:150px 0px;
+    }
+    
+    50%{
+        translate: 150px 10px;
+    }
+    100%{
+        translate: 150px 0px;
+       
+    }
+    
+    }
+    .SteelSeries img{
+        scale: 0.44;
+        transform: translateY(-700px);
+        translate: -225px;
+    }
+    .SteelSeries h3{
+        transform: translateY(-670px);
+        translate: 125px;
+        color: white;
+        font-size: 40px;
+    }
+    .SteelSeries .st{
+        color: white;
+    font-size: 25px;
+    transform: translateY(-610px);
+    translate: 18px;
+    }
+    .SteelSeries .stt{
+        color: white;
+    font-size: 25px;
+    transform: translateY(-575px);
+    translate: 58px;
+    }
+    .third{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .dt990{
+        width: 400px;
+        height: 570px;
+        translate: -100px;
+        border: 4px solid white;
+        border-radius: 10px;
+        animation-name: squer6;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+          animation-direction: alternate-reverse;
+      }
+      @keyframes squer6{
+        0%{
+            translate:-100px 0px;
+        }
+        
+        50%{
+            translate: -100px 10px;
+        }
+        100%{
+            translate: -100px 0px;
+           
+        }
+        
+        }
+    
+
+      .dt990 img{
+        scale: 0.2;
+        transform: translateY(-2700px);
+        translate: -520px;
+      }
+      .dt990 h3{
+        color: white;
+        font-size: 35px;
+        transform: translateY(-1100px);
+        translate: 125px;
+      }
+      .dt990 .dt{
+        color: white;
+        font-size: 25px;
+        transform: translateY(-1050px);
+        translate: 10px;
+      }
+    .dt990 .dtt{
+        color: white;
+        font-size: 25px;
+        transform: translateY(-1020px);
+        translate: 55px;
+    }
+    .rezer{
+        width: 400px;
+        height: 570px;
+        translate: 155px;
+        border: 4px solid white;
+        border-radius: 10px;
+        animation-name: squer7;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+          animation-direction: alternate-reverse;
+    }
+    @keyframes squer7{
+        0%{
+            translate: 155px 0px;
+        }
+        
+        50%{
+            translate: 155px 10px;
+        }
+        100%{
+            translate: 155px 0px;
+           
+        }
+        
+        }
+        .rezer img{
+            scale: 0.25;
+            translate: -200px;
+            transform: translateY(-1350px);
+        }
+        .rezer h3{
+            color: white;
+            font-size: 35px;
+            transform: translateY(-690px);
+            translate: 100px;
+        }
+        .rezer .ra{
+            color: white;
+            font-size: 25px;
+            transform: translateY(-620px);
+            translate: 65px;
+        }
+        .rezer .raa{
+            color: white;
+            font-size: 24px;
+            transform: translateY(-595px);
+            translate: 80px;
+        }
+        @media (min-width:950px) and (max-width:1375px){
+            
+            ul{
+                width: 30%;
+                font-size:16px ;
+                list-style: none;
+                display: flex;
+                justify-content: space-evenly;
+                padding: 10px;
+            }
+            .afterheader h3{
+    
+                color: white;
+                direction: rtl;
+                font-size: 25px;
+                animation-name: squer1;
+                animation-duration:16s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+              animation-direction: alternate-reverse;
+               
+            }
+            @keyframes squer1{
+                0%{
+                    translate: 0;
+                }
+                50%{
+                    translate: -320px;
+                }
+                100%{
+                    translate: 0;
+                }
+            }
+            .astroa50{
+                translate: 330px;
+            }
+            @keyframes squer3{
+                0%{
+                    translate: 330px 0px;
+                }
+                
+                50%{
+                    translate: 330px 10px;
+                }
+                100%{
+                    translate: 330px 0px;
+                   
+                }
+                
+                }
+                .secend{
+                    translate: 70px;
+                }
+               .huperx{
+                scale: 0.8;
+                translate: 10px;
+               }
+               @keyframes squer4{
+                0%{
+                    translate:10px 0px;
+                }
+                
+                50%{
+                    translate: 10px 10px;
+                }
+                100%{
+                    translate: 10px 0px;
+                   
+                }
+            }
+               .SteelSeries{
+                scale: 0.8;
+                translate: -10px;
+               }
+               @keyframes squer5{
+                0%{
+                    translate:-10px 0px;
+                }
+                
+                50%{
+                    translate: -10px 10px;
+                }
+                100%{
+                    translate: -10px 0px;
+                   
+                }
+                
+                }
+                .dt990{
+                    scale: 0.81;
+                    translate: 80px;
+                }
+                @keyframes squer6{
+                    0%{
+                        translate:80px 0px;
+                    }
+                    
+                    50%{
+                        translate: 80px 10px;
+                    }
+                    100%{
+                        translate: 80px 0px;
+                       
+                    }
+                    
+                    }
+                    .rezer{
+                        scale: 0.81;
+                        translate: 60px;
+                    }
+                    @keyframes squer7{
+                        0%{
+                            translate: 60px 0px;
+                        }
+                        
+                        50%{
+                            translate: 60px 10px;
+                        }
+                        100%{
+                            translate: 60px 0px;
+                           
+                        }
+                        
+                        }
+               
+        }
+        @media (min-width:426px) and (max-width:950px){
+           
+            ul{
+                width: 30%;
+                font-size:15px ;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+            }
+            .afterheader h3{
+    
+                color: white;
+                direction: rtl;
+                font-size: 20px;
+                animation-name: squer1;
+                animation-duration:8s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+              animation-direction: alternate-reverse;
+               
+            }
+            @keyframes squer1{
+                0%{
+                    translate: 0;
+                }
+                50%{
+                    translate: -58px;
+                }
+                100%{
+                    translate: 0;
+                }
+            }
+            .astroa50{
+                scale: 0.9;
+                translate: 85px;
+            }
+            @keyframes squer3{
+                0%{
+                    translate: 85px 0px;
+                }
+                
+                50%{
+                    translate: 85px 10px;
+                }
+                100%{
+                    translate: 85px 0px;
+                   
+                }
+                
+                }
+                .secend{
+                    flex-direction: column;
+                    transform: translateY(-30px);
+                }
+                .huperx{
+                    scale: 0.9;
+                    translate: 20px;
+                   }
+                   @keyframes squer4{
+                    0%{
+                        translate:20px 0px;
+                    }
+                    
+                    50%{
+                        translate: 20px 10px;
+                    }
+                    100%{
+                        translate: 20px 0px;
+                       
+                    }
+                }
+                .SteelSeries{
+                    scale: 0.9;
+                    translate: 20px;
+                    transform: translateY(70px);
+                   }
+                   @keyframes squer5{
+                    0%{
+                        translate:20px 0px;
+                    }
+                    
+                    50%{
+                        translate: 20px 10px;
+                    }
+                    100%{
+                        translate: 20px 0px;
+                       
+                    }
+                    
+                    }
+                    .third{
+                        flex-direction: column;
+                        transform: translateY(-30px);
+                    }
+                    .dt990{
+                        scale: 0.9;
+                        translate: 20px;
+                    }
+                    @keyframes squer6{
+                        0%{
+                            translate:20px 0px;
+                        }
+                        
+                        50%{
+                            translate: 20px 10px;
+                        }
+                        100%{
+                            translate: 20px 0px;
+                           
+                        }
+                        
+                        }
+                        .rezer{
+                            scale: 0.9;
+                            translate: 20px;
+                            transform: translateY(70px);
+                        }
+                        @keyframes squer7{
+                            0%{
+                                translate: 20px 0px;
+                            }
+                            
+                            50%{
+                                translate: 20px 10px;
+                            }
+                            100%{
+                                translate: 20px 0px;
+                               
+                            }
+                            
+                            }
+        }
+        @media (max-width:426px){
+            .logo{
+                font-size: 25px;
+                color: white;
+                padding: 20px;
+                translate: -5px;
+            }
+            ul{
+                width: 30%;
+                font-size:15px ;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+            }
+            .afterheader h3{
+    
+                color: white;
+                direction: rtl;
+                font-size: 12px;
+                animation-name: squer1;
+                animation-duration:8s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+              animation-direction: alternate-reverse;
+               
+            }
+            @keyframes squer1{
+                0%{
+                    translate: 0;
+                }
+                50%{
+                    translate: -25px;
+                }
+                100%{
+                    translate: 0;
+                }
+            }
+            .astroa50{
+                scale: 0.8;
+                translate:-23px;
+            }
+            @keyframes squer3{
+                0%{
+                    translate: -23px 0px;
+                }
+                
+                50%{
+                    translate: -23px 10px;
+                }
+                100%{
+                    translate: -23px 0px;
+                   
+                }
+                
+                }
+          .astroa50 .as{
+            translate: 35px;
+          }
+                .secend{
+                    flex-direction: column;
+                    transform: translateY(-140px);
+                }
+                .huperx{
+                    scale: 0.8;
+                    translate: 1px;
+                   }
+                   @keyframes squer4{
+                    0%{
+                        translate:1px 0px;
+                    }
+                    
+                    50%{
+                        translate: 1px 10px;
+                    }
+                    100%{
+                        translate: 1px 0px;
+                       
+                    }
+                     
+                }
+          .huperx .hy{
+            translate: 35px;
+          }
+                .SteelSeries{
+                    scale: 0.8;
+                    translate: 1px;
+                   }
+                   @keyframes squer5{
+                    0%{
+                        translate:1px 0px;
+                    }
+                    
+                    50%{
+                        translate: 1px 10px;
+                    }
+                    100%{
+                        translate: 1px 0px;
+                       
+                    }
+                }
+          .SteelSeries .st{
+            translate: 30px;
+            font-size: 23px;
+          }
+          .SteelSeries .stt{
+            transform: translateY(-590px);
+          }
+                .third{
+                    flex-direction: column;
+                    transform: translateY(-280px);
+                }
+                .dt990{
+                    scale: 0.8;
+                    translate: 1px;
+                   }
+                   @keyframes squer6{
+                    0%{
+                        translate:1px 0px;
+                    }
+                    
+                    50%{
+                        translate: 1px 10px;
+                    }
+                    100%{
+                        translate: 1px 0px;
+                       
+                    }
+                }
+          .dt990 .dt{
+            translate: 20px;
+            font-size: 23px;
+          }
+                .rezer{
+                    scale: 0.8;
+                    translate: 1px;
+                   }
+                   @keyframes squer7{
+                    0%{
+                        translate:1px 0px;
+                    }
+                    
+                    50%{
+                        translate: 1px 10px;
+                    }
+                    100%{
+                        translate: 1px 0px;
+                       
+                    }
+                }
+          .rezer .ra{
+            font-size: 27px;
+            translate: 37px;
+          }
+        }

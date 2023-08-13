@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #02275a;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    translate: 20px;
+}
+ul{
+    width: 30%;
+    font-size:20px ;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-color: white;
+}
+.afterhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+video{
+   translate: 20px;
+    transform: translateY(100px);
+    border: 2px solid white;
+    border-radius: 0 40px 0 40px;
+}
+.text1{
+    transform: translateY(50px);
+}
+.text1 h3{
+    
+    color: white;
+    font-size:45px;
+    direction: rtl;
+    translate: -5px;
+animation-name: squer1;
+animation-duration: 8s;
+animation-delay: 0.5s;
+animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+@keyframes squer1{
+    0%{
+        translate: -5px;
+    }
+    50%{
+        translate: -230px;
+    }
+    100%{
+        translate: -5px;
+    }
+}
+
+.text1 h4{
+    
+    color: white;
+    font-size: 30px;
+    translate: -140px;
+    animation-name: squer2;
+animation-duration: 8s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+scale: 0;
+}
+@keyframes squer2{
+    0%{
+        scale: 0;
+    }
+    50%{
+        scale: 1;
+    }
+    100%{
+        scale: 0;
+    }
+}
+.pc{
+    width: 99.3%;
+    height: 300px;
+    transform: translateY(80px);
+    scale: 0.95;
+    border: white solid 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    animation-name: squer3;
+animation-duration: 3s;
+animation-delay: 0.5s;
+animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+.pc h3{
+    color: white;
+    direction: ltr;
+    font-size: 40px;
+   
+
+}
+.pc img{
+    
+    height: 100%;
+    direction: rtl;
+    transform: translateX(230px);
+}
+@keyframes squer3{
+0%{
+    translate: 0px 0px;
+}
+
+50%{
+    translate: 0px 10px;
+}
+100%{
+    translate: 0px 0px;
+   
+}
+
+
+}
+.pc:hover{
+    scale: 1.001;
+}
+.laptop{
+    width: 99.3%;
+    height: 300px;
+    transform: translateY(80px);
+    scale: 0.95;
+    border: white solid 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    animation-name: squer3;
+animation-duration: 3s;
+animation-delay: 0.5s;
+animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+.laptop h3{
+    color: white;
+    direction: ltr;
+    font-size: 40px;
+   
+}
+.laptop img{
+    height: 90%;
+    direction: rtl;
+    transform: translateX(230px);
+}
+.laptop:hover{
+    scale: 1.001;
+}
+.headphone{
+    width: 99.3%;
+    height: 300px;
+    transform: translateY(80px);
+    scale: 0.95;
+    border: white solid 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    animation-name: squer3;
+animation-duration: 3s;
+animation-delay: 0.5s;
+animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+.headphone h3{
+    color: white;
+    direction: ltr;
+    font-size: 40px;
+}
+.headphone img{
+    height: 100%;
+    direction: rtl;
+    transform: translateX(230px);
+}
+.headphone:hover{
+    scale: 1.001;
+
+}
+.mouse{
+    width: 99.3%;
+    height: 300px;
+    transform: translateY(80px);
+    scale: 0.95;
+    border: white solid 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    animation-name: squer3;
+animation-duration: 3s;
+animation-delay: 0.5s;
+animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+.mouse h3{
+    color: white;
+    direction: ltr;
+    font-size: 40px;
+}
+.mouse img{
+    height: 100%;
+    direction: rtl;
+    transform: translateX(190px);
+}
+.mouse:hover{
+    scale: 1.001;
+}
+@media (min-width:950px) and (max-width:1375px){
+
+    
+    ul{
+     width: 30%;
+     font-size:16px ;
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 10px;
+ }
+ .afterhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.text1{
+    transform: translateY(100px);
+}
+.text1 h3{
+    
+    color: white;
+    font-size:45px;
+    direction: rtl;
+    translate: 210px;
+animation-name: squer1;
+animation-duration: 8s;
+animation-delay: 0.5s;
+animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+@keyframes squer1{
+    0%{
+        translate: 210px;
+    }
+    50%{
+        translate: -50px;
+    }
+    100%{
+        translate: 210px;
+    }
+}
+.text1 h4{
+    
+translate: 50px;
+}
+.pc img{
+    
+    transform: translateX(170px);
+}
+.laptop img{
+ transform: translateX(100px);
+}
+.headphone img{
+    transform: translateX(150px);
+}
+.mouse img{
+   
+    transform: translateX(75px);
+}
+ }
+ @media (min-width:426px) and (max-width:950px){
+    ul{
+        width: 30%;
+        font-size:15px ;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .afterhead{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    video{
+        scale: 0.6;
+       transform: translateX(-30px);
+     }
+     .text1{
+        transform: translateY(-50px);
+    }
+    .text1 h3{
+    
+        color: white;
+        font-size:45px;
+        direction: rtl;
+        translate: 60px;
+    animation-name: squer1;
+    animation-duration: 8s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+    
+    }
+    @keyframes squer1{
+        0%{
+            translate: 60px;
+        }
+        50%{
+            translate: -70px;
+        }
+        100%{
+            translate: 60px;
+        }
+    }
+    .text1 h4{
+    
+        translate:20px;
+        }
+        .pc img{
+    
+            transform: translateX(50px);
+        }
+        .laptop img{
+            scale: 0.8;
+            transform: translateX(35px);
+           }
+           .laptop h3{
+            color: white;
+            direction: ltr;
+            font-size: 30px;
+           
+        }
+        .headphone img{
+            scale: 0.9;
+            transform: translateX(35px);
+        }
+        .mouse h3{
+            color: white;
+            direction: ltr;
+            font-size: 25px;
+            translate: 10px;
+           
+            
+        }
+        .mouse img{
+            scale: 0.7;
+            translate: -100px;
+        }
+
+ }
+ @media (max-width:426px){
+    .logo{
+        font-size: 25px;
+        color: white;
+        padding: 20px;
+        translate: -5px;
+    }
+    ul{
+        width: 30%;
+        font-size:15px ;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .afterhead{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    video{
+        scale: 0.42;
+       transform: translateX(-44px);
+     }
+     .text1 h3{
+    
+        color: white;
+        font-size:40px;
+        direction: rtl;
+        translate: 15px;
+    animation-name: squer1;
+    animation-duration: 8s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+    
+    }
+    @keyframes squer1{
+        0%{
+            translate: 0px;
+        }
+        50%{
+            translate: -55px;
+        }
+        100%{
+            translate: 0px;
+        }
+    }
+    
+     .text1 h4{
+        font-size: 20px;
+        translate:6px;
+        }
+        .pc img{
+    scale: 0.6;
+            transform: translateX(20px);
+        }
+        .pc h3{
+            scale: 0.65;
+            translate: 45px;
+            transform: translateY(5px);
+        }
+        .laptop img{
+            scale: 0.47;
+            transform: translateX(-75px);
+           }
+           .laptop h3{
+            scale: 0.5;
+            transform: translateX(85px);
+        }
+        .headphone img{
+            scale: 0.5;
+            transform: translateX(0px);
+        }
+        .headphone h3{
+            scale: 0.6;
+            transform: translateX(70px);
+         
+        }
+        .mouse h3{
+           scale: 0.4;
+           transform: translateX(135px);
+            
+        }
+        .mouse img{
+            scale: 0.37;
+            translate: -137px;
+        }
+        .pc{
+            translate: -3px;
+        }
+        @keyframes squer3{
+            0%{
+                translate: -3px 0px;
+            }
+            
+            50%{
+                translate: -3px 10px;
+            }
+            100%{
+                translate: -3px 0px;
+               
+            }
+            
+            
+            }
+            .laptop{
+                translate: -3px;
+            }
+            .headphone{
+                translate: -3px;
+            }
+            .mouse{
+                translate: -3px;
+            }
+        
+ }

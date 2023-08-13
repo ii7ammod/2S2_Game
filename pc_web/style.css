@@ -1,0 +1,854 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #02275a;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    translate: 20px;
+}
+ul{
+    width: 30%;
+    font-size:20px ;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-color: white;
+}
+.afterheader h3{
+    
+    color: white;
+    direction: rtl;
+    font-size: 30px;
+    animation-name: squer1;
+    animation-duration:16s;
+animation-delay: 0.5s;
+animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+   
+}
+@keyframes squer1{
+    0%{
+        translate: 0;
+    }
+    50%{
+        translate: -755px;
+    }
+    100%{
+        translate: 0;
+    }
+}
+.first{
+    display: flex;
+            justify-content: center;
+            align-items: center;        
+}
+.one{
+    width: 700px;
+            height: 1000px;
+            translate: 0px;
+            transform: translateY(0px);
+            border: 4px solid white;
+            border-radius: 10px;
+            scale: 0.8;
+            animation-name: squer2;
+            animation-duration: 3s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+}
+@keyframes squer2{
+    0%{
+        translate: 0px 0px;
+    }
+    
+    50%{
+        translate: 0px 10px;
+    }
+    100%{
+        translate: 0px 0px;
+       
+    }
+    
+    }
+    .one .math{
+        color: white;
+        font-size: 20px;
+        transform: translateY(40px);
+        translate: 150px;
+    }
+    .one .cpu{
+        color: white;
+        font-size: 20px;
+        transform: translateY(70px);
+        translate: 15px;
+    }
+    .one .gpu{
+        color: white;
+        font-size: 20px;
+        transform: translateY(100px);
+        translate: 140px;
+    }
+    .one .ram{
+        color: white;
+        font-size: 20px;
+        transform: translateY(130px);
+        translate: 55px;
+    }
+    .one .pwer{
+        color: white;
+        font-size: 20px;
+        transform: translateY(160px);
+        translate: 190px;
+    }
+    .one .hard{
+        color: white;
+        font-size: 19px;
+        transform: translateY(190px);
+        translate: -70px;
+    }
+    .one .case{
+        color: white;
+        font-size: 20px;
+        transform: translateY(220px);
+        translate: 150px;
+    }
+    .one .salary{
+        color: white;
+        font-size: 25px;
+        transform: translateY(250px);
+        translate: 170px;
+    }
+    .secend{
+        display: flex;
+            justify-content: center;
+            align-items: center; 
+    }
+    .two{
+        width: 700px;
+        height: 1000px;
+        translate: 0px;
+        transform: translateY(0px);
+        border: 4px solid white;
+        border-radius: 10px;
+        scale: 0.8;
+        animation-name: squer2;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+    .two .math{
+        color: white;
+        font-size: 20px;
+        transform: translateY(40px);
+        translate: 160px;
+    }
+    .two .cpu{
+        color: white;
+        font-size: 20px;
+        transform: translateY(70px);
+        translate: 15px;
+    }
+    .two .gpu{
+        color: white;
+        font-size: 20px;
+        transform: translateY(100px);
+        translate: 105px;
+    }
+    .two .ram{
+        color: white;
+        font-size: 20px;
+        transform: translateY(130px);
+        translate: 30px;
+    }
+    .two .pwer{
+        color: white;
+        font-size: 20px;
+        transform: translateY(160px);
+        translate: 177px;
+    }
+    .two .hard{
+        color: white;
+        font-size: 19px;
+        transform: translateY(190px);
+        translate: 130px;
+    }
+    .two .case{
+        color: white;
+        font-size: 20px;
+        transform: translateY(220px);
+        translate: 146px;
+    }
+    .two .salary{
+        color: white;
+        font-size: 25px;
+        transform: translateY(250px);
+        translate: 158px;
+    }
+    .three{
+        width: 700px;
+        height: 1000px;
+        translate: 0px;
+        transform: translateY(0px);
+        border: 4px solid white;
+        border-radius: 10px;
+        scale: 0.8;
+        animation-name: squer2;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+    .three .math{
+        color: white;
+        font-size: 20px;
+        transform: translateY(40px);
+        translate: 157px;
+    }
+    .three .cpu{
+        color: white;
+        font-size: 20px;
+        transform: translateY(70px);
+        translate: 15px;
+    }
+    .three .gpu{
+        color: white;
+        font-size: 20px;
+        transform: translateY(100px);
+        translate: 40px;
+    }
+    .three .ram{
+        color: white;
+        font-size: 20px;
+        transform: translateY(130px);
+        translate: 30px;
+    }
+    .three .pwer{
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+        transform: translateY(160px);
+        translate: 177px;
+    }
+    .three .hard{
+        color: white;
+        font-size: 19px;
+        transform: translateY(190px);
+        translate: 130px;
+    }
+    .three .case{
+        color: white;
+        font-size: 20px;
+        transform: translateY(220px);
+        translate: 146px;
+    }
+    .three .salary{
+        display: inline-block;
+        color: white;
+        font-size: 25px;
+        transform: translateY(250px);
+        translate: 158px;
+    }
+    .third{
+        display: flex;
+            justify-content: center;
+            align-items: center; 
+    }
+    .four{
+        width: 700px;
+        height: 1000px;
+        translate: 0px;
+        transform: translateY(0px);
+        border: 4px solid white;
+        border-radius: 10px;
+        scale: 0.8;
+        animation-name: squer2;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+    .four .math{
+        color: white;
+        font-size: 20px;
+        transform: translateY(40px);
+        translate: 154px;
+    }
+    .four .cpu{
+        color: white;
+        font-size: 20px;
+        transform: translateY(70px);
+        translate: 8px;
+    }
+    .four .gpu{
+        color: white;
+        font-size: 20px;
+        transform: translateY(100px);
+        translate: 85px;
+    }
+    .four .ram{
+        color: white;
+        font-size: 20px;
+        transform: translateY(130px);
+        translate: 45px;
+    }
+    .four .pwer{
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+        transform: translateY(160px);
+        translate: 205px;
+    }
+    .four .hard{
+        color: white;
+        font-size: 19px;
+        transform: translateY(190px);
+        translate: -40px;
+    }
+    .four .case{
+        color: white;
+        font-size: 20px;
+        transform: translateY(220px);
+        translate: 180px;
+    }
+    .four .salary{
+        display: inline-block;
+        color: white;
+        font-size: 25px;
+        transform: translateY(250px);
+        translate: 145px;
+    }
+    .five{
+        width: 700px;
+        height: 1000px;
+        translate: 0px;
+        transform: translateY(0px);
+        border: 4px solid white;
+        border-radius: 10px;
+        scale: 0.8;
+        animation-name: squer2;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+    .five .math{
+        color: white;
+        font-size: 20px;
+        transform: translateY(40px);
+        translate: 138px;
+    }
+    .five .cpu{
+        color: white;
+        font-size: 20px;
+        transform: translateY(70px);
+        translate: -5px;
+    }
+    .five .gpu{
+        color: white;
+        font-size: 20px;
+        transform: translateY(100px);
+        translate: -7px;
+    }
+    .five .ram{
+        color: white;
+        font-size: 20px;
+        transform: translateY(130px);
+        translate: 45px;
+    }
+    .five .pwer{
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+        transform: translateY(160px);
+        translate: 179px;
+    }
+    .five .hard{
+        color: white;
+        font-size: 19px;
+        transform: translateY(190px);
+        translate: -40px;
+    }
+    .five .case{
+        color: white;
+        font-size: 20px;
+        transform: translateY(220px);
+        translate: 68px;
+    }
+    .five .salary{
+        display: inline-block;
+        color: white;
+        font-size: 25px;
+        transform: translateY(250px);
+        translate: 160px;
+    }
+    @media (min-width:1050px) and (max-width:1310px){
+        ul{
+            width: 30%;
+            font-size:18px ;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+        }
+        .afterheader h3{
+    
+            color: white;
+            direction: rtl;
+            font-size: 30px;
+            animation-name: squer1;
+            animation-duration:16s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+          animation-direction: alternate-reverse;
+           
+        }
+        @keyframes squer1{
+            0%{
+                translate: 0;
+            }
+            50%{
+                translate: -250px;
+            }
+            100%{
+                translate: 0;
+            }
+        }
+        .first{
+            scale: 0.9;
+        }
+        .secend{
+            scale: 0.9;
+        }
+        .third{
+            scale: 0.75;
+        }
+        .two .cpu{
+            translate: -20px;
+        }
+        .three .cpu{
+            translate: -20px;
+        }
+        .two .gpu{
+            translate: 70px;
+        }
+        .three .gpu{
+            translate: -20px;
+        }
+        .two .ram{
+            translate: -20px;
+        }
+        .three .ram{
+            translate: -20px;
+        }
+        .two .pwer{
+            translate: 130px;
+        }
+        .three .pwer{
+            translate: 130px;
+        }
+        .two .hard{
+            translate: 80px;
+        }
+        .three .hard{
+            translate: 80px;
+        }
+        .two .case{
+            translate: 110px;
+        }
+        .three.case{
+            translate: 110px;
+        }
+        .two .salary{
+            translate: 125px;
+        }
+        .three .salary{
+            translate: 125px;
+        }
+        .two .math{
+            translate: 125px;
+        }
+        .three .math{
+            translate: 125px;
+        }
+    }
+    @media (min-width:950px) and (max-width:1050px){
+        ul{
+            width: 30%;
+            font-size:16px ;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+        }
+        .afterheader h3{
+    
+            color: white;
+            direction: rtl;
+            font-size: 30px;
+            animation-name: squer1;
+            animation-duration:16s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+          animation-direction: alternate-reverse;
+           
+        }
+        @keyframes squer1{
+            0%{
+                translate: 0;
+            }
+            50%{
+                translate: -155px;
+            }
+            100%{
+                translate: 0;
+            }
+        }
+
+        .first{
+            scale: 0.9;
+        }
+        .secend{
+            scale: 0.8;
+        }
+        .third{
+            scale: 0.7;
+        }
+        .two .cpu{
+            translate: -20px;
+        }
+        .three .cpu{
+            translate: -20px;
+        }
+        .two .gpu{
+            translate:  70px;
+        }
+        .three .gpu{
+            translate: -20px;
+        }
+        .two .ram{
+            translate: -20px;
+        }
+        .three .ram{
+            translate: -20px;
+        }
+        .two .pwer{
+            translate: 130px;
+        }
+        .three .pwer{
+            translate: 130px;
+        }
+        .two .hard{
+            translate: 80px;
+        }
+        .three .hard{
+            translate: 80px;
+        }
+        .two .case{
+            translate: 110px;
+        }
+        .three.case{
+            translate: 110px;
+        }
+        .two .salary{
+            translate: 125px;
+        }
+        .three .salary{
+            translate: 125px;
+        }
+        .two .math{
+            translate: 125px;
+        }
+        .three .math{
+            translate: 125px;
+        }
+    }
+    @media (min-width:426px) and (max-width:950px){
+        .logo{
+            font-size: 30px;
+            color: white;
+            padding: 20px;
+            translate: 20px;
+        }
+        ul{
+            width: 30%;
+            font-size:15px ;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .afterheader h3{
+
+            color: white;
+            direction: rtl;
+            font-size: 20px;
+            animation-name: squer1;
+            animation-duration:8s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+          animation-direction: alternate-reverse;
+           
+        }
+        @keyframes squer1{
+            0%{
+                translate: 0;
+            }
+            50%{
+                translate: -10px;
+            }
+            100%{
+                translate: 0;
+            }
+        }
+        .first{
+            scale: 0.75;
+        }
+        .secend{
+            flex-direction: column;
+            scale: 0.75;
+            transform: translateY(-480px);
+        }
+        .third{
+            flex-direction: column;
+            scale: 0.75;
+            transform: translateY(-1140px);
+        }
+    }
+    @media (max-width:426px){
+        .logo{
+            font-size: 25px;
+            color: white;
+            padding: 20px;
+            translate: -5px;
+        }
+        ul{
+            width: 30%;
+            font-size:15px ;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .afterheader h3{
+        
+            color: white;
+            direction: rtl;
+            font-size: 10px;
+            animation-name: squer1;
+            animation-duration:8s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+          animation-direction: alternate-reverse;
+           
+        }
+        @keyframes squer1{
+            0%{
+                translate: 0;
+            }
+            50%{
+                translate: -27px;
+            }
+            100%{
+                translate: 0;
+            }
+        }
+        .first{
+            scale: 0.58;
+        }
+      .one .math{
+        font-size: 15px;
+      }
+      .one .cpu{
+        font-size: 15px;
+        translate: 50px;
+      }
+      .one .gpu{
+        font-size: 15px;
+      }
+      .one .ram{
+        font-size: 15px;
+        translate: 80px;
+      }
+      .one .pwer{
+        font-size: 15px;
+      }
+      .one .hard{
+        font-size: 15px;
+        translate: -25px;
+      }
+      .one .case{
+        font-size: 15px;
+      }
+      .one .salary{
+        font-size: 20px;
+        translate: 150px;
+      }
+        .secend{
+            flex-direction: column;
+            scale: 0.5;
+            transform: translateY(-1470px);
+        }
+      .two .math{
+        font-size: 15px;
+        translate: 190px;
+      }
+      .two .cpu{
+        font-size: 15px;
+        translate: 80px;
+      }
+      .two .gpu{
+        font-size: 15px;
+        translate: 150px;
+      }
+      .two .ram{
+        font-size: 15px;
+        translate: 95px;
+      }
+      .two .pwer{
+        font-size: 15px;
+        translate: 205px;
+      }
+      .two .hard{
+        font-size: 15px;
+        translate: 155px;
+      }
+      .two .case{
+        font-size: 15px;
+        translate: 175px;
+      }
+      .two .salary{
+        font-size: 25px;
+        translate: 135px;
+      }
+      .three .math{
+        font-size: 15px;
+        translate: 190px;
+      }
+      .three .cpu{
+        font-size: 15px;
+        translate: 80px;
+      }
+      .three .gpu{
+        font-size: 15px;
+        translate: 110px;
+      }
+      .three .ram{
+        font-size: 15px;
+        translate: 105px;
+      }
+      .three .pwer{
+        font-size: 15px;
+        translate: 220px;
+      }
+      .three .hard{
+        font-size: 15px;
+        translate: 170px;
+      }
+      .three .case{
+        font-size: 15px;
+        translate: 195px;
+      }
+      .three .salary{
+        font-size: 25px;
+        translate: 155px;
+      }
+        .third{
+            flex-direction: column;
+            scale: 0.5;
+            transform: translateY(-3480px);
+        }
+      .four .math{
+        font-size: 15px;
+        translate: 190px;
+      }
+      .four .cpu{
+        font-size: 15px;
+        translate: 75px;
+      }
+      .four .gpu{
+        font-size: 15px;
+        translate: 135px;
+      }
+      .four .ram{
+        font-size: 15px;
+        translate: 110px;
+      }
+      .four .pwer{
+        font-size: 15px;
+        translate: 232px;
+      }
+      .four .hard{
+        font-size: 15px;
+        translate: 30px;
+      }
+      .four .case{
+        font-size: 15px;
+        translate: 217px;
+      }
+      .four .salary{
+        font-size: 25px;
+        translate: 142px;
+      }.five .math{
+        font-size: 15px;
+        translate: 190px;
+      }
+      .five .cpu{
+        font-size: 15px;
+        translate: 80px;
+      }
+      .five .gpu{
+        font-size: 15px;
+        translate: 80px;
+      }
+      .five .ram{
+        font-size: 15px;
+        translate: 105px;
+      }
+      .five .pwer{
+        font-size: 15px;
+        translate: 200px;
+      }
+      .five .hard{
+        font-size: 15px;
+        translate: 25px;
+      }
+      .five .case{
+        font-size: 15px;
+        translate: 121px;
+      }
+      .five .salary{
+        font-size: 25px;
+        translate: 140px;
+      }
+      
+    }
